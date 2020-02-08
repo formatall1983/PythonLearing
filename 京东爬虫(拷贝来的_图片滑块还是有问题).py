@@ -36,7 +36,7 @@ def getPic():
     smallimg = brower.find_element_by_xpath(s3).get_attribute("src")
     # print(smallimg + '\n')
     # print(bigimg)
-    # 背景大图命名
+    # 背景大图命名 
     backimg = "backimg.png"
     # 滑块命名
     slideimg = "slideimg.png"
@@ -72,6 +72,6 @@ def getPic():
   
   
 if __name__ == '__main__':
-    id = 'XXXXXXXXXXX'   # 用户账号
+    id = '1761360968'   # 用户账号
     passwd = "XXXXXXXXXXXXXX" # 用户密码
     loadpage(id, passwd)
